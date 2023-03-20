@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './User/User.component';
+import { HippopotamusComponent } from './Hippopotamus/Hippopotamus.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      UserComponent
+      UserComponent,
+      HippopotamusComponent
    ],
   imports: [
     BrowserModule
